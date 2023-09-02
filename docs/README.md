@@ -28,4 +28,6 @@ To clean the build, run `scripts/run.sh clean`. This will clean the files create
 
 ## Tested on
 
-I've tested this on WSL-2 for Windows. Using Debian 12. 
+- Windows WSL-2, Debian 12
+- Windows WSL-2, Ubuntu 22.04 LTS
+- Ubuntu 22.04 LTS (GitHub Actions)

@@ -1,5 +1,3 @@
-#!/bin/sh
-
 ASMC="nasm"
 ASMC_FLAGS="-f elf32"
 
