@@ -27,7 +27,7 @@ jobs:
         python3 scripts/run.py build
 
     - name: Upload
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: ISO Image
         path: AlveniaOS.iso
