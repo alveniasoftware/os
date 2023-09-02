@@ -1,4 +1,11 @@
+# Output directory
+dist/
+bin/
+# Cache files and directories
+cache/
+*.tmp
+*.log
+
+# Other files and folders
 .vscode/
-*.o
-*.iso
-*.elf
+old/
