@@ -16,7 +16,7 @@ jobs:
     - name: Install requirements
       run: |
         sudo apt-get update
-        sudo apt install -y binutils gcc make xorriso nasm
+        sudo apt install -y binutils gcc xorriso nasm g++ grub
     
     - name: Build
       run: |
