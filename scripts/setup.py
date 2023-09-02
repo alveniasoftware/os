@@ -21,7 +21,7 @@ for i in ["bin", "bin/boot", "bin/boot/grub", "dist"]:
 
 if not os.path.exists("conf/grub.cfg"):
     with open("bin/boot/grub/grub.cfg", "w") as f:
-        f.write("set timeout=0\nset default=0\n\nmenuentry \"AlveniaOS\" {\n    multiboot /boot/AlveniaOS.elf\n    boot\n}")
+        f.write(grubcfg)
 else:
     shutil.copyfile("conf/grub.cfg", "bin/boot/grub/grub.cfg")
 
