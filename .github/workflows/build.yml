@@ -26,6 +26,13 @@ jobs:
       run: |
         python3 scripts/run.py build
 
+    - name: Upload
+      uses: actions/upload-artifact@v2
+      with:
+        name: ISO Image
+        path: AlveniaOS.iso
+        retention-days: 7
+    
     - name: Clean
       run: |
         python3 scripts/run.py clean
