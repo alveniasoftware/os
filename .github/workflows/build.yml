@@ -15,12 +15,15 @@ jobs:
 
     - name: Install requirements
       run: |
-        sudo apt-get update
-        sudo apt install -y binutils gcc xorriso nasm g++ grub-common python3
+        sudo apt-get update 
+        sudo apt install -y binutils gcc xorriso nasm g++ grub-common python3 mtools
+    
+    - name: Setup
+      run: |
+        python3 scripts/setup.py
     
     - name: Build
       run: |
-        python3 scripts/setup.py
         python3 scripts/run.py build
 
     - name: Clean
