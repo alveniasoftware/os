@@ -9,4 +9,5 @@ cache/
 
 # Other files and folders
 .vscode/
+__pycache__/
 *.iso

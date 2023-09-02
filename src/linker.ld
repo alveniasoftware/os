@@ -40,6 +40,5 @@ SECTIONS
 		*(.comment)
 		*(.eh_frame)
 		*(.note)
-        *(.note.GNU-stack)
 	}
 }

@@ -7,7 +7,7 @@ Console console;
 
 extern "C" void _mainW(void) {
     console.clear();
-    console.printf("Hello, World!", 0x07);
+    console.print("Hello, World!", 0x07);
 }
 
 extern "C" void _loopW(void) {
