@@ -1,0 +1,11 @@
+name: Have a suggestion?
+description: You can request a feature using this template.
+labels: ["enhancement"]
+body:
+- type: textarea
+  attributes:
+    label: What do you want us to add?
+    description: Please explain your feature request as much as possible in this field.
+  validations:
+    required: true
+  

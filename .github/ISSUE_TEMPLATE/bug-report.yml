@@ -1,0 +1,29 @@
+name: Found a bug?
+description: Report a bug you found using this template.
+labels: ["bug", "not confirmed"]
+body:
+- type: textarea
+  attributes:
+    label: Current behavior
+    description: What exactly does app do?
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Expected behavior?
+    description: What exactly should app do?
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Steps to replicate behavior
+    description: What exactly did you do for this problem to appear?
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Screenshots
+    description: You can also upload screenshots so we can understand the issue.
+  validations:
+    required: false
+  
