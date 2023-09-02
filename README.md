@@ -11,5 +11,5 @@
 ---
 <br>
 <div align="center">
-  To view the full documentation, please visit <a href="https://github.com/AlveniaOS/AlveniaOS/wiki">our wiki.</a>
+  To view the full documentation, please visit <a href="https://github.com/AlveniaOS/AlveniaOS/wiki/Getting-started">our wiki.</a>
 </div>
