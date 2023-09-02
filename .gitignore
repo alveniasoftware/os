@@ -1,6 +1,7 @@
 # Output directory
 dist/
 bin/
+
 # Cache files and directories
 cache/
 *.tmp
@@ -9,3 +10,4 @@ cache/
 # Other files and folders
 .vscode/
 old/
+*.iso

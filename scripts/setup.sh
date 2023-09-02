@@ -6,7 +6,7 @@ command_exists() {
     command -v "$1" >/dev/null 2>&1
 }
 
-for i in xorriso grub-mkrescue nasm grub-file; do
+for i in xorriso $ASMC grub-mkrescue grub-file $LD $CC; do
     if ! command_exists "$i"; then
         echo "$i is not installed."
         exit 1
@@ -26,3 +26,5 @@ if [ ! -f "conf/grub.cfg" ]; then
 fi
 
 cp conf/grub.cfg bin/boot/grub/grub.cfg
+
+echo "Completed! Run './scripts/run.sh build' to build AlveniaOS."
